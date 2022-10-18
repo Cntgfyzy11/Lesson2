@@ -8,6 +8,6 @@
 Random rnd = new Random();
 int number = rnd.Next(100, 1000);
 
-int firstDigit = number % 100; // 456%100=5
-int secondDigit = firstDigit /10; // 456/10=45
+int firstDigit = number % 100; 
+int secondDigit = firstDigit /10; 
 Console.WriteLine($"Число от {number} это {secondDigit}");
